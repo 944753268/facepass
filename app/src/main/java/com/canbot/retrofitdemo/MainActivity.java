@@ -34,7 +34,7 @@ public class MainActivity extends BaseActivity {
     @Inject
     ImpFacePersenter facePersenter;
 
-
+    //我修改了代码哦‘’‘’
     private static final String URL = "192.168.2.199";
     private static final String USERNAME = "liguolin";
     private static final String PASSW = "Liguolin123";
