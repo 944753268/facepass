@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/add_group"
+        android:onClick="addGroup"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:background="@color/colorAccent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="添加底库"
+       />
+    <TextView
+        android:id="@+id/delet_group"
+        android:onClick="deleteGroup"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:background="@color/colorAccent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="删除底库"
+       />
+
+    <TextView
+        android:id="@+id/add_face"
+        android:onClick="addFace"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:background="@color/colorAccent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="添加人脸"
+        />
+ <TextView
+        android:id="@+id/bind_face"
+        android:onClick="bindFace"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:background="@color/colorAccent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="绑定人脸"
+        />
+    <TextView
+        android:id="@+id/regonized_face"
+        android:onClick="regonizdeFace"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:background="@color/colorAccent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="识别人脸"
+        />
+
+
+
+
+
+
+</LinearLayout>
